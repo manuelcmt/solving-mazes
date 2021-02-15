@@ -18,4 +18,4 @@ def test_meta(maze, goal):
     print(m.goal)
     assert m.goal == goal
     
-# Test for tests
+# Test for tests 2
