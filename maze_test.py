@@ -8,7 +8,7 @@ import pytest
                              ("maze4.txt", (8, 13)),
                              ("maze5.txt", (2, 1)),
                              ("maze6.txt", (3, 2)),
-                             ("maze7.txt", (4, 8)),
+                             ("maze7.txt", (4, 88)),
                             ])
 
 
@@ -17,3 +17,5 @@ def test_meta(maze, goal):
     m.solve
     print(m.goal)
     assert m.goal == goal
+
+# Test for tests edit
