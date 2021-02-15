@@ -17,3 +17,5 @@ def test_meta(maze, goal):
     m.solve
     print(m.goal)
     assert m.goal == goal
+    
+# Test for tests
